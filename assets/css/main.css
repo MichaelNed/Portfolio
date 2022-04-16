@@ -60,6 +60,18 @@ table {
 	object-position: center right;
   }
 
+.web-cam video {
+  width: 280px;
+  height: 295px;
+  border-radius: 100%;
+  object-fit: cover;
+  background-position: center center;
+  padding: 40px;
+  padding-top: 55px;
+
+
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
