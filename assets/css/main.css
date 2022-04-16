@@ -182,9 +182,13 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin: 0 0 0rem 0;
+		color: #ffffff;
+	}
+	.major p {
+		text-align: justify;
+		margin: 0 0 0rem 0;
 		color: #000000;
 	}
-
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
@@ -2977,7 +2981,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 1rem 4rem 1rem 4rem ;
+		padding: 1rem 4rem 8rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3449,7 +3453,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: calc(100% - 2rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -3547,7 +3551,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
+				padding: 2.5rem;
 				width: 50%;
 			}
 
@@ -3641,7 +3645,7 @@ input, select, textarea {
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: calc(100% - 2rem);
 		max-width: 72rem;
 		z-index: 2;
 		border-top: solid 2px #000000;
@@ -3904,7 +3908,6 @@ input, select, textarea {
 
 				#footer > section.split > section {
 					padding: 3rem 4rem 1rem 4rem ;
-					border-top: solid 2px #000000;
 				}
 
 					#footer > section.split > section:first-child {
