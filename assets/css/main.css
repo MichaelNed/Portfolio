@@ -2928,7 +2928,6 @@ input, select, textarea {
 a.anchor {
     display: block;
     position: relative;
-    top: -100vh;
     visibility: hidden;
 }
 
@@ -3025,7 +3024,7 @@ a.anchor {
 			z-index: 1;
 			min-height: 100vh;
 			padding-bottom: 10vh;
-			padding-top: 10vh;
+			padding-top: 12vh;
 
 			
 		}
@@ -4401,3 +4400,13 @@ a.anchor {
 		}
 
 	}
+
+	div.anchor {
+		display: block;
+		position: absolute;
+		visibility: hidden;
+		height: 0px;
+		top: -60px;
+
+	}
+	
