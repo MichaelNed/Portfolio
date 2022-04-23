@@ -3430,7 +3430,7 @@ a.anchor {
 				}
 
 			#nav ul.links li.active {
-				background-color: #ffffff;
+				background-color: #E7E8E9;
 			}
 
 				#nav ul.links li.active a {
@@ -3466,7 +3466,7 @@ a.anchor {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #E7E8E9;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 2rem);
