@@ -57,23 +57,123 @@
 							</section>
 
 
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-4"><span class="image fit"><img src="images/app.png" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/app8.gif" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/app2.png" alt="" /></span></div>
-									<!-- Break -->
-									<div class="col-4"><span class="image fit"><img src="images/app3.png" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/app4.png" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/app5.png" alt="" /></span></div>
-									<!-- Break -->
-									<div class="col-4"><span class="image fit"><img src="images/app6.png" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/app7.gif" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								</div>
-							</div>
+							<style>
+								div.gallery {
+								  border: 0px solid #ccc;
+								}
+								
+								div.gallery:hover {
+								  border: 0px solid #777;
+								}
+								
+								div.gallery img {
+								  width: 100%;
+								  height: auto;
+								}
+								
+								div.desc {
+								  padding: 5px;
+								  text-align: center;
+								}
+								
+								* {
+								  box-sizing: border-box;
+								}
+								
+								.responsive {
+								  padding: 0 6px;
+								  float: left;
+								  width: 33.33%;
+								}
+								
+								@media only screen and (max-width: 700px) {
+								  .responsive {
+									width: 49.99999%;
+									margin: 6px 0;
+								  }
+								}
+								
+								@media only screen and (max-width: 500px) {
+								  .responsive {
+									width: 100%;
+								  }
+								}
+								
+								.clearfix:after {
+								  content: "";
+								  display: table;
+								  clear: both;
+								}
+								</style>
 
-							
+								
+								<h2>Responsive Image Gallery</h2>
+								
+								<h4>Resize the browser window to see the effect.</h4>
+								
+								<div class="responsive">
+								  <div class="gallery">
+									<h4 target="_blank" href="images/app.png">
+									  <img src="images/prot1.gif" alt="Cinque Terre" width="600" height="300">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+								
+								
+								<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/app8.gif">
+									  <img src="images/prot2.gif" alt="Forest" width="600" height="300">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+								
+								<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/app2.png">
+									  <img src="images/app4.png" alt="Northern Lights" width="650" height="300">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+								
+								<div class="responsive">
+									<div class="gallery">
+									  <a target="_blank" href="images/app3.png">
+										<img src="images/prot4.gif" alt="Mountains" width="600" height="300">
+									  </a>
+									  <div class="desc">Add a description of the image here</div>
+									</div>
+								  </div>
+
+
+								  
+								  <div class="responsive">
+									<div class="gallery">
+									  <h4 target="_blank" href="images/app.png">
+										<img src="images/proto5.gif" alt="Cinque Terre" width="600" height="300">
+									  </a>
+									  <div class="desc">Add a description of the image here</div>
+									</div>
+								  </div>
+								  
+
+								  
+								  
+								  <div class="responsive">
+									  <div class="gallery">
+										<a target="_blank" href="images/app3.png">
+										  <img src="images/proto8.gif" alt="Mountains" width="600" height="300">
+										</a>
+										<div class="desc">Add a description of the image here</div>
+									  </div>
+									</div>
+
+									
+								
+								<div class="clearfix"></div>
 
 					</div>
 

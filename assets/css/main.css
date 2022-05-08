@@ -331,7 +331,7 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 5rem 0;
+			margin: 1rem 0;
 		}
 
 	.align-left {
@@ -2427,7 +2427,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
+			margin: 2rem 0;
 			width: 100%;
 		}
 
@@ -2689,7 +2689,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 5rem 0;
+			margin: 0 0 0rem 0;
 			text-align: center;
 		}
 
@@ -2704,7 +2704,7 @@ input, select, textarea {
 
 			header.major > .date {
 				font-size: 1rem;
-				margin: 0 0 4rem 0;
+				margin: 0 0 1rem 0;
 			}
 
 				header.major > .date:before, header.major > .date:after {
@@ -2735,7 +2735,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			header.major {
-				margin: 0 0 2rem 0;
+				margin: 0 0 1rem 0;
 			}
 
 		}
@@ -3512,7 +3512,6 @@ a.anchor {
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #000000;
-			margin: 0;
 		}
 
 			#main > *:first-child {
@@ -3534,7 +3533,7 @@ a.anchor {
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
-				margin: 0 0 2rem 0;
+				margin: 0 0 1rem 0;
 			}
 
 			#main > .post.featured {
@@ -3557,7 +3556,7 @@ a.anchor {
 
 					#main > .post header.major > .date {
 						margin-top: -1rem;
-						margin-bottom: 2rem;
+						margin-bottom: 1rem;
 					}
 
 					#main > .post header.major > h1, #main > .post header.major h2 {
@@ -3677,7 +3676,7 @@ a.anchor {
 		@media screen and (max-width: 736px) {
 
 			#main > * {
-				padding: 2rem 2rem 1rem 2rem ;
+				padding: 2rem 0rem 1rem 0rem ;
 			}
 			#actions {
 				padding-bottom: 0vh;
